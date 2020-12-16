@@ -1,0 +1,100 @@
+body
+{
+    background-color: rgb(188, 128, 245);
+}
+
+hr
+{
+    border-style: dotted none none;
+    border-width: 3px;
+    border-color: whitesmoke;
+    height: 0px;
+    width: 100%;
+    border-left: 20px;
+    
+}
+
+h1
+{
+    color: #03254E;
+}
+
+h3
+{
+    color: #F75C03;
+}
+
+img:hover
+{
+    background-color: #A6ECE0;
+}
+
+/* You can specify background color for horizontal rule (hr) using this syntax: 
+background-color: #E59500;
+
+Alternate way of adding border style is: 
+border-top-style: dotted
+*/
+
+/********************************************CLASS SELECTOR******************************************/
+
+.nonveg
+{
+    background-color: #F1C40F;
+}
+
+.veg
+{
+    background-color: #E01A4F;
+}
+
+.circular
+{
+    border-radius: 100%;
+}
+
+/* Since we have established classes for two different images, in this css file, we define their qualities/apearances by 
+.class_name
+
+IMPORTANT NOTE: An HTML element can have ****"MORE THAN ONE CLASS"**** but can ****"ONLY ONE ID"****
+*/
+
+
+/********************************************ID SELECTOR******************************************/
+
+#heading
+{
+    color: #502274
+
+}
+
+/*An id can be used only once on a page. For example, if you are using <h1 id="heading"> then you cannot use heading id for some other element.
+You can use, say for <p> tag, <p id="first-paragraph">
+And again, you cannot use this id for any other element
+
+IMPORTANT NOTE: An HTML element can have ****"MORE THAN ONE CLASS"**** but can ****"ONLY ONE ID"****
+*/
+
+
+.J_Chan
+{
+    width: 300px;
+    height: auto;
+}
+
+.circular
+{
+    border-radius: 10%;
+}
+
+.Jerry
+{
+    width: 200px;
+    height: auto;
+}
+
+.Mix
+{
+    width: 300px;
+    height: auto;
+}
